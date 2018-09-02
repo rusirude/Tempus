@@ -1,0 +1,19 @@
+<div class="card">
+  <img class="card-img-top" height="200px" src="https://static.dezeen.com/uploads/2017/02/sheffield-childrens-hospital-morag-myerscough-interior-design-uk_dezeen_2364_hero.gif" alt="Card image cap">
+  <div class="card-body">
+    <form (submit)="onLoginSubmit()">
+      <div class="form-group">
+        <label for="usernameLabel">Username</label>
+        <input type="text" class="form-control" [(ngModel)]="username" name="username" placeholder="Enter Username">
+      </div>
+      <div class="form-group">
+        <label for="passwordLabel">Password</label>
+        <input type="password" class="form-control" [(ngModel)]="password" name="password" placeholder="Password">
+      </div>
+      <div class="form-check">
+
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
